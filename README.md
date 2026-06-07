@@ -15,18 +15,18 @@ Instead of hardcoding endless `if-elif` statements, we pass our database table s
 
 ---
 
-## 👥 The API Restaurant Analogy
+## The API Restaurant Analogy
 To understand how our application securely routes requests to the AI model, we use this classic intermediary framework:
 `Customer (Client Browser) <--> Waiter (Gemini API) <--> Kitchen (Google AI Server)`
 
 ---
 
-## 🛠️ Installation & Environment Setup
+## Installation & Environment Setup
 
 ### Required Package Installations
 (a) Run these commands in your terminal to install the modern AI client engine and environment configurations:
-##### pip install google-genai
+#### pip install google-genai
 (b) for storing secret API keys directly inside a programming project so they don't get pushed to GitHub, the industry standard is to use Environment Variables stored in a hidden file called a .env file
-##### python-dotenv streamlit
+#### python-dotenv streamlit
 (c) for running streamlit file use
-##### streamlit run app.py
+#### streamlit run app.py
