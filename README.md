@@ -1,4 +1,5 @@
 # Natural Language to SQL (NL2SQL) Translator Engine
+## https://text-to-sql-translator-t3uvgdpnnjgyficnn675vb.streamlit.app/
 
 A two-part Python-based translation engine that converts human English commands into structured SQL queries, executing them against an in-memory database with a Streamlit web UI.
 
