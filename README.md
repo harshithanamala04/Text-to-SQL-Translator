@@ -44,8 +44,3 @@ Open your browser at `http://localhost:8501`.
 - `app.py` — CLI runner and entrypoint
 - `test_translator.py` — Automated unit test suite
 - `requirements.txt` — Python dependencies
-
----
-
-## 📄 License
-MIT License
